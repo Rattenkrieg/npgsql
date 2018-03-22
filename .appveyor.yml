@@ -47,6 +47,10 @@ artifacts:
     name: Npgsql Json.NET Plugin Nuget
   - path: 'src\Npgsql.NodaTime\bin\**\*.nupkg'
     name: Npgsql NodaTime Plugin Nuget
+  - path: 'src\Npgsql.LegacyPostgis\bin\**\*.nupkg'
+    name: Npgsql Legacy PostGIS Plugin Nuget
+  - path: 'src\Npgsql.RawPostgis\bin\**\*.nupkg'
+    name: Npgsql Raw PostGIS Plugin Nuget
   - path: 'src\VSIX\bin\**\*.vsix'
     name: Visual Studio Extension
   - path: 'src\MSI\bin\**\*.msi'
